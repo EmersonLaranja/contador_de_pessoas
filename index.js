@@ -7,7 +7,7 @@ var port = process.env.PORT || 4000;
 
 const wss = new WebSocket.Server({ server })
 
-let dados = 0
+let dados = "0,0,Segunda - 00:00,0"
 
 wss.on('connection', ws => {
     console.log('Nova conexão')
