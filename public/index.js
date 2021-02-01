@@ -1,4 +1,4 @@
-const socket = new WebSocket("ws://contador-de-pessoas.herokuapp.com");
+const socket = new WebSocket("wss://contador-de-pessoas.herokuapp.com/");
 // let socket = new WebSocket("ws://192.168.15.10:4000");
 
 document.addEventListener("DOMContentLoaded", () => {
