@@ -1,0 +1,53 @@
+body{
+    background-color: #15202B;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99vw;
+    height: 90vh;
+}
+
+div.pessoas{
+    border: 5px solid;
+    border-radius: 15px;
+    max-width: 25rem;
+    text-align: center;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#contador{
+    font-size: 4rem;
+}
+
+.footer{
+    display: flex;
+    position:absolute;
+    bottom:0;
+    width:100vw;
+    justify-content: space-around;
+}
+
+.temp{
+    text-align: center;
+    color: rgb(199, 95, 95);
+}
+
+.umid{
+    text-align: center;
+    color: rgb(116, 116, 245);
+}
+
+.atualizacao{
+    display: flex;
+    position:absolute;
+    top:0;
+    flex-direction: column;
+    margin-bottom:0px;
+    text-align: center;
+}
+#data{
+    margin-top: 0px;
+}

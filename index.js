@@ -1,11 +1,15 @@
 // server.js
-const app = require('express')()
+const express = require('express');
+const app = express();
 const server = require('http').createServer(app)
 const { send } = require('process');
 const WebSocket = require('ws')
 var port = process.env.PORT || 4000;
 
 const wss = new WebSocket.Server({ server })
+
+app.use(express.static('public'));
+
 
 let dados = "0,0,Segunda - 00:00,0"
 
