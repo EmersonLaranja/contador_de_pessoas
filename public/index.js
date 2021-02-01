@@ -1,5 +1,5 @@
-// let socket = new WebSocket("ws://contador-de-pessoas.herokuapp.com");
-let socket = new WebSocket("ws://192.168.15.10:4000");
+let socket = new WebSocket("ws://contador-de-pessoas.herokuapp.com");
+// let socket = new WebSocket("ws://192.168.15.10:4000");
 let temp = document.getElementById("temp")
 let umid = document.getElementById("umidade")
 let data = document.getElementById("data")
